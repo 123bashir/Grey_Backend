@@ -20,10 +20,11 @@ app.use(bodyParser.urlencoded({ extended: true, limit: '20mb' }));
 
 // Database Connection Pool
 const db = mysql.createPool({
-    host: process.env.DB_HOST || 'localhost',
-    user: process.env.DB_USER || 'root',
-    password: process.env.DB_PASS || '',
-    database: process.env.DB_NAME || 'greyinsaat_db',
+    host: process.env.DB_HOST || 'pld109.truehost.cloud',
+    user: process.env.DB_USER || 'nzqgmpkd_greyinsaat',
+    password: process.env.DB_PASS || 'Candd4611@123',
+    database: process.env.DB_NAME || 'nzqgmpkd_greyinsaat',
+    port:3306,
     waitForConnections: true,
     connectionLimit: 10,
     queueLimit: 0
