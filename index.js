@@ -6,7 +6,7 @@ import mysql from 'mysql2';
 import { uploadToCloudinary, uploadMultipleToCloudinary } from './cloudinary.js';
 
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT =  8080;
 
 // Middleware
 app.use(cors({
