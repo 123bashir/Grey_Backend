@@ -1,0 +1,12 @@
+{
+  "access_token": "ya29.a0ATi6K2so0_ZslZYHxQ_SlIqBTUrn2AQn0ajQbfLU2SBitLjOF97xm7ZeQOQfryM4BqTFc7flJMm5qgjtvB7kM9dBDvQqZOE3o-FvlLYBcaYkbE5J9AxiL7DQsQSpBlyNgMPSWuGlHIw1RhTgodI0rYatZ2z5HE_JQsAtZjL9tR8Gv3S3CtkQoI5yfvnUj8zvkwfkh0oaCgYKAXcSARASFQHGX2Mi3BGyN3I_DLuINg2nRoivpQ0206",
+  "expires_in": 3599,
+  "refresh_token": "1//09m2455O85apJCgYIARAAGAkSNwF-L9IrRvVv102ViP0CZWjFxMFWf4Shy8Qs8--7Y3Sf0XadJj0ymu0YLtYO-yRRdh5-8U5Bdpg",
+  "scope": "https://www.googleapis.com/auth/gmail.send",
+  "token_type": "Bearer",
+  "refresh_token_expires_in": 604799,
+  "expiry_date": 1764636809580,
+  "client_id": "945434649624-ckkq4d739tc0vtr7hknddpg3b69rouau.apps.googleusercontent.com",
+  "client_secret": "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",
+  "user_email": "info.greyinsaat@gmail.com"
+}
