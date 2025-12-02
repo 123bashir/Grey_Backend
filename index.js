@@ -20,10 +20,10 @@ app.use(bodyParser.urlencoded({ extended: true, limit: '20mb' }));
 
 // Database Connection Pool
 const db = mysql.createPool({
-    host: process.env.DB_HOST || 'pld109.truehost.cloud',
-    user: process.env.DB_USER || 'nzqgmpkd_greyinsaat',
-    password: process.env.DB_PASS || 'Candd4611@123',
-    database: process.env.DB_NAME || 'nzqgmpkd_greyinsaat',
+    host:  '86.107.77.205',
+    user:  'almubara_greyinsaat',
+    password: 'Candd4611@',
+    database:  'almubara_greyinsaat',
     port:3306,
     waitForConnections: true,
     connectionLimit: 10,
@@ -1200,7 +1200,6 @@ app.use((err, req, res, next) => {
 });
 
 // Start Server
-app.listen(PORT, () => {
-    console.log(`🚀 Server running on http://localhost:${PORT}`);
+app.listen(8080, () => {
     console.log(`📊 Database: ${process.env.DB_NAME || 'greyinsaat_db'}`);
 });
