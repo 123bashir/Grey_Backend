@@ -9,7 +9,11 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: ["https://admin.greyinsaat.com", "https://greyinsaat.com"],
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
 // Increase JSON and URL-encoded body size limits to accommodate larger payloads (images, attachments)
 app.use(bodyParser.json({ limit: '20mb' }));
 app.use(bodyParser.urlencoded({ extended: true, limit: '20mb' }));
