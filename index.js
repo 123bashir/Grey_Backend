@@ -219,7 +219,7 @@ app.post('/api/projects', authenticateUser, async (req, res) => {
         } = req.body;
 
         // Validation
-        if (!name || !type || !client || !location || !start_date || !end_date || !total_budget || !project_manager) {
+        if (!name || !type || !client  || !total_budget ) {
             return res.status(400).json({
                 success: false,
                 message: 'Missing required fields'
