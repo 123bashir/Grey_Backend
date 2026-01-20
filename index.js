@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({ extended: true, limit: '20mb' }));
 
 // Database Connection Pool
 const db = mysql.createPool({
-    host:  '54.36.174.113',
+    host:  'pld109.truehost.cloud',
     user:  'nzqgmpkd_greyinsaat',
     password: 'Candd4611@',
     database:  'nzqgmpkd_greyinsaat',
